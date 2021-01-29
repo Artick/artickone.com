@@ -1,0 +1,136 @@
+:root {
+  --blue-facebook: #1877f2;
+  --blue-twitter: #1da1f2;
+  --purple-twitch: #9147ff;
+  --black: #000000;
+  --purple-instagram: #c90082;
+  --text-title: #585858;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Work Sans', Arial, sans-serif;
+}
+
+body {
+  background-color: #e2e2e2;
+}
+
+main {
+  max-width: 320px;
+  /* max-width: 90%; */
+  margin: 20px auto;
+  border-radius: 8px;
+  background-color: var(--white);
+}
+
+header h1 {
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin: 22px auto;
+  padding-top: 36px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+header img {
+  border-radius: 50%;
+  width: 182px;
+  display: block;
+  margin: 0 auto;
+}
+
+.social__button {
+  padding: 20px 0;
+}
+
+.social__button a {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  border-radius: 4px;
+  height: 45px;
+  width: 280px;
+  font-size: 1.8rem;
+  line-height: 2.5;
+  font-weight: 500;
+  color: var(--white);
+  text-decoration: none;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.social__button a p {
+  margin: 0 auto;
+}
+
+.social__button--facebook {
+  background-color: var(--blue-facebook);
+  background-image: url(../assets/icons/f-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 8px center;
+}
+
+.social__button--twitter {
+  background-color: var(--blue-twitter);
+  background-image: url(../assets/icons/twitter-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 8px center;
+}
+
+.social__button--twitch {
+  background-color: var(--purple-twitch);
+  background-image: url(../assets/icons/twitch-icon.svg);
+  background-repeat: no-repeat;
+  background-position: 8px 8px;
+}
+
+.social__button--github {
+  background-color: var(--black);
+  background-image: url('../assets/icons/github-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 8px center;
+}
+
+.social__button--instagram {
+  background-color: var(--purple-instagram);
+  background-image: url('../assets/icons/Instagram-icon.svg');
+  background-repeat: no-repeat;
+  background-position: 8px center;
+}
+
+.info__container {
+  display: block;
+}
+
+.info__text {
+  padding: 20px;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.info__text h2 {
+  font-size: 1.8rem;
+  padding-bottom: 2rem;
+}
+
+.info__text p {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 500;
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: (rgba(0, 0, 0, 0.1));
+  text-align: center;
+  align-self: flex-end;
+  padding: 10px 0;
+}
